@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: grid;
+    place-items: center; */
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+.calculator{
+    padding: 15px;
+    border: 2px solid rgba(116, 114, 114);
+    box-shadow: 0 0 15px #000;
+    border-radius: 15px;
+}
+input{
+    width: 350px;
+    border: none;
+    outline: none;
+    padding: 23px;
+    margin: 15px;
+    background: transparent;
+    color: #fff;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+
+}
+input::placeholder{
+    color: #fff;
+}
+button{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    background: transparent;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: 600;
+    border: none;
+    box-shadow: -5px -6px 15px #000;
+    border-radius: 50%;
+    outline: 1px solid  #313131;
+    outline-offset: 2px;
+}
+.optr{
+    background-color: rgb(45, 51, 41);
+}
+.btn{
+    background-color: #b7520f;
+}
